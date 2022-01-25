@@ -1,0 +1,62 @@
+
+<!-- saved from url=(0063)http://127.0.0.1:5500/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Cписки</title>
+    </head>
+    <body>
+        <h1>Омлет</h1>
+        <p>Блюда из яиц - мои любимые. Ниже я помещаю рецепт приготовления омлета.</p>
+    <h2>Продкты</h2>  
+    <ul>
+        <li>Яйца<ul><li>2 штуки</li></ul></li>
+    <li>Молоко<ul><li>70 ml</li></ul></li>
+    <li>Соль<ul><li>1/2 чайной ложки</li></ul></li>
+    <li>Растительное масло<ul><li>1 чайная ложна</li></ul></li>
+    </ul> 
+    <h2>Приготовление</h2> 
+    <ol>
+<li>Яйца перемешать с солью</li>
+<li>Влить молоко, слегка перемешивая</li>
+<li>Форму для запекания смазать растительным маслом</li>
+<li>Вылить омлетную массу в смазанную форму. Поставить в предворительно разогретую до 250<sup>o</sup>C духовку и готовить омлет в духовке 20-30 минут.</li>
+<li>Во время запекания на поверхности омлета образуется слегка румянная корочка, по степени зажаривания которой определите готовность омлета</li>
+    </ol>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>

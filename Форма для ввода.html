@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Регистрация1</title>
+    </head>
+    <body>
+        <!--form action="http://www.primer.ru/login.php">
+            <p> Имя пользователя: 
+                <input type="text" name="username" size="15" maxlength="30" />
+            </p>
+            <p> Пароль: 
+                <input type="password" name="password" size="15" maxlength="30" />
+            </p>
+            <p>Что вы думаете об этом? </p>
+                <textarea name="comments" cols="20" rows="4">Введите свой комментарий...</textarea>
+        </form-->
+        <!--form action="http://www.primer.ru/profile.php" method="post"-->
+        <form action="/" method="post">
+            <p>Пожалуйста, выберите любимый жанр музыки: <br />
+            <input type="radio" name="genre" value="rock" checked="checked" />Рок
+            <input type="radio" name="genre" value="pop" />Поп
+            <input type="radio" name="genre" value="techno" /> Электроника 
+            </p>
+            <p> Пожалуйста, выберите, где вы слушаете музыку: <br />
+                <input type="checkbox" name="service" value="house" checked="checkbox" /> Дома
+                <input type="checkbox" name="service" value="work" /> На работе
+                <input type="checkbox" name="service" value="inroad" /> В дороге 
+            </p>
+            <p> На каком устройстве вы слушаете музыку?</p>
+            <select name="ustroistva" size="2" multiple="multiple">
+                <option value="-">-</option>
+                <option value="iPod">iPod</option>
+                <option value="radio">Радио</option>
+                <option value="computer">Компьютер</option>
+            </select>
+            <p>Загрузите свою песню в формате MP3:</p>
+            <input type="file" name="pesnya" /> <br />
+            <input type="submit" value="Загрузить" />
+        </form>
+    </body>
+</html>
