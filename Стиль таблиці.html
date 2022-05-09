@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Таблиця</title>
+        <style type="text/css">
+            body {font-family: Arial, Verdana, sans-serif;
+                  color: #111111;}
+            table {width: 600px;}
+            th, td {padding: 7px 10px 10px 10px;}
+            th {text-transform: uppercase;
+                letter-spacing: 0.1em;
+                font-size: 90%;
+                border-bottom: 2px solid #111111;
+                border-top: 1px solid #999;
+                text-align: left;}
+            tr.even {background-color: #efefef;}
+            tr:hover {background-color: #c3e6e5;}
+            .money {text-align: right;}
+        </style>
+    </head>
+    <body>
+        <h1>Книжковий аукціон</h1>
+        <table>
+            <tr>
+                <th>Автор</th>
+                <th>Назва</th>
+                <th class="money">Зарезервована ціна</th>
+                <th class="money">Поточна ціна</th>
+            </tr>
+            <tr>
+                <td>Едвард Естін Каммінгс</td>
+                <td>Тюльпани й димоходи</td>
+                <td class="money">20 000 грн.</td>
+                <td class="money">25 000 грн.</td>
+            </tr>
+            <tr class="even">
+                <td>Карл I Орлеанський</td>
+                <td>Поеми</td>
+                <td class="money"></td>
+                <td class="money">50 000 грн.</td>
+            </tr>
+            <tr>
+                <td>Томас Стернз Еліот</td>
+                <td>Поеми 1909-1925</td>
+                <td class="money">10 000 грн.</td>
+                <td class="money">60 000 грн.</td>
+            </tr>
+            <tr class="even">
+                <td>Сільвія-Плат</td>
+                <td>Колос</td>
+                <td class="money"></td>
+                <td class="money">10 100 грн.</td>
+            </tr>
+        </table>
+    </body>
+</html>

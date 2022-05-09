@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Метки</title>
+    </head>
+    <body>
+        <form action="http://www.primer.ru" method="post">
+        <label>Возраст: <input type="text" name="vozrast" required="required" /></label> <br />
+        Пол: <input id="female" type="radio" name="pol" value="f">
+        <label for="female">Женский</label>
+        <input id="male" type="radio" name="pol" value="m">
+        <label for="male">Мужской</label>
+        <fieldset>
+            <legend>Контактная информация</legend>
+            <label>Email: <br />
+            <input type="text" name="email" /></label><br />
+            <label>Телефон: <br />
+            <input type="text" name="phone" /></label><br />
+        </fieldset>
+         <br />
+        <label for="depart">Дата вылета:</label>
+        <input type="date" name="depart" />
+        <p>Введите адрес электронной почты:</p>
+        <input type="email" name="email" />
+        <p>Введите адрес вашего сайта:</p>
+        <input type="url" name="sait" />
+        <input type="submit" value="Отправить" />
+        <p>Поиск:</p>
+        <input type="search" name="poisk" placeholder="Купить компьютер" />
+    </form>
+    </body>
+</html>

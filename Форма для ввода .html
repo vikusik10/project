@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Анкета</title>
+        <style type="text/css">
+            * {font-family: Arial, Verdana, sans-serif;
+               color: #665544;}
+            input {border-bottom: 1px dotted #aa5e5e;
+                   border-top: none;
+                   border-left: none;
+                   border-right: none;
+                   padding: 5px;
+                   width: 280px;
+                   margin-bottom: 20px;}
+            input:focus {outline: none;
+                         border: 1px dotted #aa5e5e;}
+            input#submit {color: #ffffff;
+                          background-color: #665544;
+                          border: none;
+                          border-radius: 5px;
+                          width: 80px;}
+            input#submit:hover {color: #665544;
+                               background-color: #ffffff;}
+            fieldset {width: 350px;
+                      border: 1px solid #dcdcdc;
+                      text-align: right;
+                      border-radius: 10px;
+                      padding: 20px;}
+            legend {background-color: #efefef;
+                    border: 1px solid #dcdcdc;
+                    border-radius: 10px;
+                    padding: 10px 20px;
+                    text-align: left;
+                    text-transform: uppercase;}
+            a {cursor: auto;}
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Розсил</legend>
+                <label for="name">Ім'я:</label><input type="text" id="name" />
+                <label for="email">Email:</label><input type="text" id="email" />
+                <input type="submit" value="Підписка" id="submit" />
+            </fieldset>
+        </form>
+        <a href="http://www.youtube.com">Youtube</a>
+    </body>
+</html>
