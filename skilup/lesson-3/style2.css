@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+.menu {
+    list-style: none;
+}
+.menu li {
+    width: 100px;
+    margin: 15px;
+}
+.menu a {
+    display: block;
+    height: 30px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid black;
+    border-radius: 6px;
+    transition: 0.5s all ease-in-out;
+}
+.menu a:hover {
+    background-color: white;
+    color: black;
+}
