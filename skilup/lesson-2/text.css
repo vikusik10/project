@@ -1,0 +1,19 @@
+#t7 {
+    border: 3px solid blue;
+    font-size: 35px;
+    font-weight: bold;
+}
+.even {
+    background-color: black;
+    color: white;
+    font-size: 27px;
+    text-decoration: underline;
+    font-style: italic;
+}
+p {
+    font-size: 25px;
+    border-right: 3px dashed red;
+}
+p span {
+    color: red;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета</title>
+    <style>
+        fieldset {
+            width: 400px;
+            padding: 20px;
+        }
+        input {
+            margin: 5px;
+        }
+        legend {
+            text-align: center;
+        }
+        button {
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Форма даних</legend>
+            <label for="surname">Прізвище: </label><input type="text" name="surname" id="surname"> <br>
+
+            <label for="name">Ім'я:  </label><input type="text" name="name" id="name"> <br>
+
+            <label for="dadname">По батькові: </label><input type="text" name="dadname" id="dadname"> <br>
+            <label for="age">Ваш вік: </label> <input type="text" name="age" id="age" maxlength="3" size="3"> <br>
+            Стать: <input type="radio" name="sex" value="male" id="male"><label for="male">Чоловіча</label>
+            <input type="radio" name="sex" value="female" id="female"><label for="female">Жіноча</label> <br>
+
+            Номер телефону: <input type="tel" name="tel" id="tel"> <br>
+
+            <label for="email">Email: </label><input type="email" name="email" id="email"> <br>
+
+            Оберіть вашу область проживання:  
+            <select name="zoneofUA" id="zoneofUA">
+                <option value="Київська">Київська</option>
+                <option value="Вінницька">Вінницька</option>
+                <option value="Волинська">Волинська</option>
+                <option value="Дніпропетровська">Дніпропетровська</option>
+                <option value="Донецька">Донецька</option>
+                <option value="Житомирська">Житомирська</option>
+                <option value="Закарпатська">Закарпатська</option>
+                <option value="Запорізька">Запорізька</option>
+                <option value="Івано-Франківська">Івано-Франківська</option>
+                <option value="Кіровоградська">Кіровоградська</option>
+                <option value="Луганська">Луганська</option>
+                <option value="Львівська">Львівська</option>
+                <option value="Миколаївська">Миколаївська</option>
+                <option value="Одеська">Одеська</option>
+                <option value="Полтавська">Полтавська</option>
+                <option value="Рівненська">Рівненська</option>
+                <option value="Сумська">Сумська</option>
+                <option value="Тернопільська">Тернопільська</option>
+                <option value="Харківська">Харківська</option>
+                <option value="Херсонська">Херсонська</option>
+                <option value="Хмельницька">Хмельницька</option>
+                <option value="Черкаська">Черкаська</option>
+                <option value="Чернівецька">Чернівецька</option>
+                <option value="Чернігівська">Чернігівська</option>
+            </select> <br>
+
+            Додайте ваше фото <input type="file"> <br>
+
+            <textarea cols="40" rows="6">Додаткова інформація про вас</textarea>  <br>
+
+            <input type="checkbox">Надання дозволу на обробку даних <br>
+
+            <button>Надіслати</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>
